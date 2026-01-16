@@ -30,3 +30,7 @@ yarn-error.log*
 .idea/
 
 _labs/
+
+WORK_LOG.md
+
+*.code-workspace
