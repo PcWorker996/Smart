@@ -5,6 +5,8 @@
 Accepted
 
 ## Context
+Without worker:  Upload → [Wait 60 sec for parsing] → Response  😫
+With worker:     Upload → job_id (instant) → Worker processes → Poll status  ✅
 
 Currently, the document ingestion API keeps the HTTP request open until parsing and embedding complete. This work can take tens of seconds for larger PDFs or complex documents.
 

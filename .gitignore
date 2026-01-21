@@ -30,6 +30,7 @@ yarn-error.log*
 .idea/
 
 _labs/
+requirements-lab.txt
 
 WORK_LOG.md
 
