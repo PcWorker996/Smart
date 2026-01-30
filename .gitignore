@@ -35,3 +35,13 @@ requirements-lab.txt
 WORK_LOG.md
 
 *.code-workspace
+
+spec.md
+
+*.egg-info/
+
+pipeline.py
+
+
+
+
