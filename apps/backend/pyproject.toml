@@ -22,6 +22,7 @@ dependencies = [
     "celery",
     "pypdf",
     "sentence-transformers",
+    "pgvector",
 ]
 
 [project.optional-dependencies]
